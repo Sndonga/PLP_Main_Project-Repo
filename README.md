@@ -20,6 +20,63 @@ A Python data analysis project tracking key COVID-19 metrics across countries, f
    ```bash
    git clone https://github.com/Sndonga/PLP_Main_Project-Repo.git
    cd PLP_Main_Project-Repo
+2. Install dependencies:
+
+bash
+pip install -r requirements.txt
+(Alternatively: pip install pandas matplotlib seaborn)
+
+📂 File Structure
+PLP_Main_Project-Repo/
+├── data/                   # Raw dataset
+│   └── owid-covid-data.csv
+├── analysis.ipynb          # Main Jupyter Notebook
+├── output/                 # Generated visualizations
+│   ├── cases_trend.png
+│   └── vaccination.png
+└── README.md               # This file
+🚀 How to Run
+Jupyter Notebook:
+
+Open analysis.ipynb in VS Code/Jupyter
+
+Run cells sequentially (Kernel → Restart & Run All)
+
+Command Line (alternative):
+
+bash
+python analysis.py
+🔍 Key Findings
+Case Trends:
+
+Kenya peaked at [X] daily cases on [DATE]
+
+Comparative analysis with neighboring countries
+
+Vaccination Insights:
+
+Correlation between GDP and vaccination rates
+
+Timeline of vaccine rollout effectiveness
+
+Mortality Analysis:
+
+Age-adjusted fatality rates by country
+
+📊 Sample Visualization
+Cases Trend
+Daily new cases in select African countries
+
+🤝 How to Contribute
+Fork the repository
+
+Create a feature branch (git checkout -b new-feature)
+
+Commit changes (git commit -m 'Add new analysis')
+
+Push to branch (git push origin new-feature)
+
+Open a Pull Request
    
 #Created by Shalom Ndonga of PLP FEB 2025 Cohort
 ### Key Features of This README:
@@ -29,12 +86,3 @@ A Python data analysis project tracking key COVID-19 metrics across countries, f
 4. **Visual Appeal**: Structured file tree and image placeholder
 5. **GitHub Optimized**: Proper Markdown syntax for GitHub rendering
 
-### To Add:
-1. Replace `[X]`, `[DATE]` etc. with your actual findings
-2. Add real screenshot paths (replace `output/cases_trend.png`)
-3. Update license file if needed
-
-Would you like me to:
-1. Add a specific analysis methodology section?
-2. Include more technical details about the pandas operations?
-3. Customize it further for your institution's requirements?
