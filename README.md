@@ -30,7 +30,7 @@ pip install -r requirements.txt
 PLP_Main_Project-Repo/
 ├── data/                   # Raw dataset
 │   └── owid-covid-data.csv
-├── analysis.ipynb          # Main Jupyter Notebook
+├── analysis.py          # Main Jupyter Notebook
 ├── output/                 # Generated visualizations
 │   ├── cases_trend.png
 │   └── vaccination.png
@@ -38,7 +38,7 @@ PLP_Main_Project-Repo/
 🚀 How to Run
 Jupyter Notebook:
 
-Open analysis.ipynb in VS Code/Jupyter
+Open analysis.py in VS Code/Jupyter
 
 Run cells sequentially (Kernel → Restart & Run All)
 
