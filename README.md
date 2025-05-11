@@ -20,3 +20,21 @@ A Python data analysis project tracking key COVID-19 metrics across countries, f
    ```bash
    git clone https://github.com/Sndonga/PLP_Main_Project-Repo.git
    cd PLP_Main_Project-Repo
+   
+#Created by Shalom Ndonga of PLP FEB 2025 Cohort
+### Key Features of This README:
+1. **Professional Formatting**: Uses badges, clear sections, and code blocks
+2. **Reproducibility**: Includes exact installation/run instructions
+3. **Academic Ready**: Highlights analytical findings for grading
+4. **Visual Appeal**: Structured file tree and image placeholder
+5. **GitHub Optimized**: Proper Markdown syntax for GitHub rendering
+
+### To Add:
+1. Replace `[X]`, `[DATE]` etc. with your actual findings
+2. Add real screenshot paths (replace `output/cases_trend.png`)
+3. Update license file if needed
+
+Would you like me to:
+1. Add a specific analysis methodology section?
+2. Include more technical details about the pandas operations?
+3. Customize it further for your institution's requirements?
